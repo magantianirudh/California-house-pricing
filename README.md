@@ -10,7 +10,7 @@
 Create a new environment
 
 ```
-conda create -p venv python==3.12 -y
+conda create -p venv python==3.11.5 -y
 ```
 
 ### To activate this environment, use
@@ -20,4 +20,8 @@ conda activate /Users/manojmaganti/Downloads/Projects/GitHub/California-house-pr
 ### To deactivate an active environment, use
 ```
 conda deactivate
+```
+Requirements
+```
+pip install -r requirements.txt
 ```
