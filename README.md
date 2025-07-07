@@ -25,3 +25,11 @@ Requirements
 ```
 pip install -r requirements.txt
 ```
+build your Docker image:
+```
+docker build -t california-house-pricing .
+```
+Run with:
+```
+docker run -p 5050:5050 california-house-pricing
+```
