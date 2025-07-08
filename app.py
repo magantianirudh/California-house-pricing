@@ -18,7 +18,7 @@ def home():
 def predict_api():
     data=request.json['data']
     print(data)
-    print(np.arraylist(data.values()).reshape(1,-1))
+    print(np.array(list(data.values()).reshape(1,-1))
     new_data=scaler.transform(np.arraylist(data.values()).reshape(1,-1))
     output=xgbrmodel.predict(new_data)
     print(output[0])
